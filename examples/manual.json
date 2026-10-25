@@ -1,0 +1,13 @@
+{
+  "companyId": "company-example",
+  "mattermostBaseUrl": "https://chat.example.com",
+  "channelIds": ["channel-example"],
+  "allowedUserIds": ["user-example"],
+  "autoProvisionProfiles": false,
+  "bots": [{
+    "agentId": "agent-example",
+    "botUserId": "bot-example",
+    "botUsername": "assistant",
+    "token": { "type": "secret_ref", "secretId": "bot-token-secret-example" }
+  }]
+}

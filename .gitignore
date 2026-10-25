@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tgz
+build/
+.agent/
+.oacs/
+.env
+*.token
+credentials/
+*.log

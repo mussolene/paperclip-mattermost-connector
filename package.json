@@ -1,0 +1,58 @@
+{
+  "name": "@catacode/paperclip-mattermost",
+  "version": "0.3.0-beta.1",
+  "private": true,
+  "type": "module",
+  "description": "Mattermost conversations and task delivery for Paperclip agents",
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "test": "node --test",
+    "link-sdk": "node scripts/link-sdk.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "paperclipPlugin": {
+    "manifest": "./dist/manifest.js",
+    "worker": "./dist/worker.js"
+  },
+  "peerDependencies": {
+    "@paperclipai/plugin-sdk": "1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@paperclipai/plugin-sdk": {
+      "optional": true
+    }
+  },
+  "license": "MIT",
+  "author": "Catacode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mussolene/paperclip-mattermost-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mussolene/paperclip-mattermost-connector/issues"
+  },
+  "homepage": "https://github.com/mussolene/paperclip-mattermost-connector#readme",
+  "keywords": [
+    "paperclip",
+    "mattermost",
+    "connector",
+    "chatops",
+    "ai-agents",
+    "self-hosted"
+  ],
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "package.json",
+    "scripts/link-sdk.mjs",
+    "docs/",
+    "examples/",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ]
+}

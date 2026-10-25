@@ -1,0 +1,11 @@
+{
+  "companyId": "company-example",
+  "mattermostBaseUrl": "https://chat.example.com",
+  "channelIds": ["channel-example"],
+  "allowedUserIds": ["user-example"],
+  "autoProvisionProfiles": true,
+  "teamId": "team-example",
+  "profileAdminToken": { "type": "secret_ref", "secretId": "admin-token-secret-example" },
+  "profileEncryptionKey": { "type": "secret_ref", "secretId": "encryption-key-secret-example" },
+  "bots": []
+}
